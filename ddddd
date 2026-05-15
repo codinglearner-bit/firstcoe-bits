@@ -1,0 +1,60 @@
+firstcoe-bits
+im jus trying tro learn new and fatser programming
+class Solution:
+    def twoSum(self, nums, target):
+        # Dictionary to store number and its index
+        hashmap = {}
+
+        # Loop through the list
+        for i in range(len(nums)):
+            current_number = nums[i]
+
+            # Calculate what we need to reach target
+            needed = target - current_number
+
+            # Check if needed number is already in hashmap
+            if needed in hashmap:
+                return [hashmap[needed], i]
+
+            # Store current number with its index
+            hashmap[current_number] = i
+
+        # If no solution found
+        return []
+
+# -----------------------------
+# Testing the solution
+# -----------------------------
+
+solution = Solution()
+
+# Test Case 1
+nums1 = [2, 7, 11, 15]
+target1 = 9
+print("Test 1 Result:", solution.twoSum(nums1, target1))
+
+# Test Case 2
+nums2 = [3, 2, 4]
+target2 = 6
+print("Test 2 Result:", solution.twoSum(nums2, target2))
+
+# Test Case 3
+nums3 = [1, 5, 3, 7]
+target3 = 8
+print("Test 3 Result:", solution.twoSum(nums3, target3))
+
+# Extra explanation lines (for learning)
+# We use a hashmap to store values we've seen
+# This allows O(n) time complexity
+# Instead of checking every pair (O(n^2))
+# We improve efficiency using memory
+# This is a classic "space for time" tradeoff
+# Very common in interview questions
+# Always check if complement exists before storing
+# Return indices immediately when found
+# End of solution
+I have solved this before in my prime!
+# Test Case 3 
+this is my third one of the year and my hardest one i have solved
+in leetcode{coding
+}
