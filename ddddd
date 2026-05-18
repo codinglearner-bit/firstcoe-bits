@@ -33,11 +33,19 @@ nums1 = [2, 7, 11, 15]
 target1 = 9
 print("Test 1 Result:", solution.twoSum(nums1, target1))
 
-# Test Case 2
-nums2 = [3, 2, 4]
-target2 = 6
-print("Test 2 Result:", solution.twoSum(nums2, target2))
-
+// example: React component snippet
+{
+  "React Function Component": {
+    "prefix": "rfc",
+    "body": [
+      "export default function ${1:ComponentName}() {",
+      "  return (",
+      "    <div>$2</div>",
+      "  );",
+      "}"
+    ],
+    "description": "Create React functional component"
+  }
 # Test Case 3
 nums3 = [1, 5, 3, 7]
 target3 = 8
@@ -58,3 +66,4 @@ I have solved this before in my prime!
 this is my third one of the year and my hardest one i have solved
 in leetcode{coding
 }
+    
